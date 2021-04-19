@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 171534333}
   - component: {fileID: 171534335}
   - component: {fileID: 171534336}
+  - component: {fileID: 171534337}
   m_Layer: 5
   m_Name: AtkritumuMasina
   m_TagString: Atkritumi
@@ -222,6 +223,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &171534337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171534331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29ecf40a2615cf48a43382951faa0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &275635326
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +249,7 @@ GameObject:
   - component: {fileID: 275635328}
   - component: {fileID: 275635330}
   - component: {fileID: 275635331}
+  - component: {fileID: 275635332}
   m_Layer: 5
   m_Name: Autobuss
   m_TagString: Skola
@@ -323,6 +338,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &275635332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275635326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29ecf40a2615cf48a43382951faa0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &291475092
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +728,7 @@ GameObject:
   - component: {fileID: 1221240702}
   - component: {fileID: 1221240704}
   - component: {fileID: 1221240705}
+  - component: {fileID: 1221240706}
   m_Layer: 5
   m_Name: AtraPalidziba
   m_TagString: Atrie
@@ -788,6 +817,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1221240706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221240700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29ecf40a2615cf48a43382951faa0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &1237330303
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,9 +1033,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cd5ecf45d5a47074ba5f3ab30ab38602, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.26
   m_Pitch: 1
   Loop: 0
   Mute: 0
