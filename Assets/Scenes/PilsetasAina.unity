@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 50832653}
   - component: {fileID: 50832655}
   - component: {fileID: 50832654}
+  - component: {fileID: 50832656}
+  - component: {fileID: 50832657}
   m_Layer: 5
   m_Name: Ugunsdzeseji
   m_TagString: Ugunsdzes
@@ -195,6 +197,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50832652}
   m_CullTransparentMesh: 0
+--- !u!114 &50832656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50832652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &50832657
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50832652}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &130888835
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +233,7 @@ GameObject:
   - component: {fileID: 130888836}
   - component: {fileID: 130888838}
   - component: {fileID: 130888837}
+  - component: {fileID: 130888839}
   m_Layer: 5
   m_Name: UgunsdzesejiVieta
   m_TagString: Ugunsdzes
@@ -230,7 +258,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 31.3, y: -174.2}
-  m_SizeDelta: {x: 120.15918, y: 120.15933}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130888837
 MonoBehaviour:
@@ -269,6 +297,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130888835}
   m_CullTransparentMesh: 0
+--- !u!114 &130888839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130888835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &171534331
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +436,8 @@ GameObject:
   - component: {fileID: 246344657}
   - component: {fileID: 246344659}
   - component: {fileID: 246344658}
+  - component: {fileID: 246344660}
+  - component: {fileID: 246344661}
   m_Layer: 5
   m_Name: PolicijasMasina
   m_TagString: Policija
@@ -458,6 +501,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246344656}
   m_CullTransparentMesh: 0
+--- !u!114 &246344660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246344656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &246344661
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246344656}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &275635326
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +652,8 @@ GameObject:
   - component: {fileID: 283711396}
   - component: {fileID: 283711398}
   - component: {fileID: 283711397}
+  - component: {fileID: 283711399}
+  - component: {fileID: 283711400}
   m_Layer: 5
   m_Name: CementaMasina
   m_TagString: Cements
@@ -647,6 +717,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283711395}
   m_CullTransparentMesh: 0
+--- !u!114 &283711399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283711395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &283711400
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283711395}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &291475092
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +819,7 @@ GameObject:
   - component: {fileID: 338055368}
   - component: {fileID: 338055370}
   - component: {fileID: 338055369}
+  - component: {fileID: 338055371}
   m_Layer: 5
   m_Name: Traktors2Vieta
   m_TagString: Trak2
@@ -748,7 +844,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -522.13, y: 251.85}
-  m_SizeDelta: {x: 128.77385, y: 106.976746}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338055369
 MonoBehaviour:
@@ -787,6 +883,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338055367}
   m_CullTransparentMesh: 0
+--- !u!114 &338055371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338055367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &419809667
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +907,8 @@ GameObject:
   - component: {fileID: 419809668}
   - component: {fileID: 419809670}
   - component: {fileID: 419809669}
+  - component: {fileID: 419809671}
+  - component: {fileID: 419809672}
   m_Layer: 5
   m_Name: Traktors2
   m_TagString: Trak2
@@ -821,7 +932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.5, y: -100.18}
+  m_AnchoredPosition: {x: 192.16, y: -101.55}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419809669
@@ -861,6 +972,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419809667}
   m_CullTransparentMesh: 0
+--- !u!114 &419809671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419809667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &419809672
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419809667}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &463219772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1218,8 @@ GameObject:
   - component: {fileID: 630023746}
   - component: {fileID: 630023748}
   - component: {fileID: 630023747}
+  - component: {fileID: 630023749}
+  - component: {fileID: 630023750}
   m_Layer: 5
   m_Name: B2Masina
   m_TagString: B2
@@ -1145,6 +1283,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630023745}
   m_CullTransparentMesh: 0
+--- !u!114 &630023749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630023745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &630023750
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630023745}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &710240128
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1319,7 @@ GameObject:
   - component: {fileID: 710240129}
   - component: {fileID: 710240131}
   - component: {fileID: 710240130}
+  - component: {fileID: 710240132}
   m_Layer: 5
   m_Name: E46Vieta
   m_TagString: E46
@@ -1180,7 +1344,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -405.4, y: 87.5}
-  m_SizeDelta: {x: 114.33382, y: 109.83972}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710240130
 MonoBehaviour:
@@ -1219,6 +1383,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710240128}
   m_CullTransparentMesh: 0
+--- !u!114 &710240132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710240128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &781329653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1407,7 @@ GameObject:
   - component: {fileID: 781329654}
   - component: {fileID: 781329656}
   - component: {fileID: 781329655}
+  - component: {fileID: 781329657}
   m_Layer: 5
   m_Name: Traktors1Vieta
   m_TagString: Trak1
@@ -1293,6 +1471,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781329653}
   m_CullTransparentMesh: 0
+--- !u!114 &781329657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781329653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &841862277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,7 +1520,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -103.8, y: -90.8}
-  m_SizeDelta: {x: 116.03894, y: 85.74309}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841862279
 MonoBehaviour:
@@ -1392,6 +1583,7 @@ GameObject:
   - component: {fileID: 978238017}
   - component: {fileID: 978238019}
   - component: {fileID: 978238018}
+  - component: {fileID: 978238020}
   m_Layer: 5
   m_Name: EskavatorsVieta
   m_TagString: Eskavators
@@ -1455,6 +1647,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978238016}
   m_CullTransparentMesh: 0
+--- !u!114 &978238020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978238016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &1060908989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,6 +1671,8 @@ GameObject:
   - component: {fileID: 1060908990}
   - component: {fileID: 1060908992}
   - component: {fileID: 1060908991}
+  - component: {fileID: 1060908993}
+  - component: {fileID: 1060908994}
   m_Layer: 5
   m_Name: Eskavators
   m_TagString: Eskavators
@@ -1529,6 +1736,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060908989}
   m_CullTransparentMesh: 0
+--- !u!114 &1060908993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060908989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &1060908994
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060908989}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1149179471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1772,7 @@ GameObject:
   - component: {fileID: 1149179472}
   - component: {fileID: 1149179474}
   - component: {fileID: 1149179473}
+  - component: {fileID: 1149179475}
   m_Layer: 5
   m_Name: CementaMasVieta
   m_TagString: Cements
@@ -1564,7 +1797,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -209.8, y: 176.67}
-  m_SizeDelta: {x: 118.32666, y: 103.66533}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1149179473
 MonoBehaviour:
@@ -1603,6 +1836,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149179471}
   m_CullTransparentMesh: 0
+--- !u!114 &1149179475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149179471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &1221240700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,6 +2151,8 @@ GameObject:
   - component: {fileID: 1514939829}
   - component: {fileID: 1514939831}
   - component: {fileID: 1514939830}
+  - component: {fileID: 1514939832}
+  - component: {fileID: 1514939833}
   m_Layer: 5
   m_Name: Traktors1
   m_TagString: Trak1
@@ -1968,6 +2216,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514939828}
   m_CullTransparentMesh: 0
+--- !u!114 &1514939832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514939828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &1514939833
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514939828}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1563633299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2574,7 @@ GameObject:
   - component: {fileID: 1812061220}
   - component: {fileID: 1812061222}
   - component: {fileID: 1812061221}
+  - component: {fileID: 1812061223}
   m_Layer: 5
   m_Name: B2Vieta
   m_TagString: B2
@@ -2325,7 +2599,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -278.25, y: -160.33}
-  m_SizeDelta: {x: 132.29485, y: 113.72238}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1812061221
 MonoBehaviour:
@@ -2364,6 +2638,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1812061219}
   m_CullTransparentMesh: 0
+--- !u!114 &1812061223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812061219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &1861281838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,6 +2662,7 @@ GameObject:
   - component: {fileID: 1861281839}
   - component: {fileID: 1861281841}
   - component: {fileID: 1861281840}
+  - component: {fileID: 1861281842}
   m_Layer: 5
   m_Name: PolicijasVieta
   m_TagString: Policija
@@ -2399,7 +2687,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 417.93, y: 171.3}
-  m_SizeDelta: {x: 109.2352, y: 102.23868}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861281840
 MonoBehaviour:
@@ -2438,6 +2726,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861281838}
   m_CullTransparentMesh: 0
+--- !u!114 &1861281842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861281838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8482a0f30d03c4a9826731eeca99e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
 --- !u!1 &2056236420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,9 +2771,25 @@ MonoBehaviour:
   atkritumuMasina: {fileID: 171534331}
   atroMasina: {fileID: 1221240700}
   autobuss: {fileID: 275635326}
+  b2Masina: {fileID: 630023745}
+  cementaMas: {fileID: 283711395}
+  e46Masina: {fileID: 2096816835}
+  eskavators: {fileID: 1060908989}
+  policijasMas: {fileID: 246344656}
+  traktors1: {fileID: 1514939828}
+  traktors2: {fileID: 419809667}
+  ugunsdzeseji: {fileID: 50832652}
   atkrKoord: {x: 0, y: 0}
   atroKoord: {x: 0, y: 0}
   bussKoord: {x: 0, y: 0}
+  b2Koord: {x: 0, y: 0}
+  cementKoord: {x: 0, y: 0}
+  e46Koord: {x: 0, y: 0}
+  eskavKoord: {x: 0, y: 0}
+  policKoord: {x: 0, y: 0}
+  trak1Koord: {x: 0, y: 0}
+  trak2Koord: {x: 0, y: 0}
+  ugunsKoord: {x: 0, y: 0}
   kanva: {fileID: 1633615207}
   skanasAvots: {fileID: 463219773}
   skanaKoAtskanot:
@@ -2480,6 +2797,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8f177111c6a376448ba0f88e7585ad1a, type: 3}
   - {fileID: 8300000, guid: aa5fd3505322235469c7793d5414e08f, type: 3}
   - {fileID: 8300000, guid: b4aabd3a72e64604bb140ffcd93bb96c, type: 3}
+  - {fileID: 8300000, guid: 84d0a502f017f7a4aa78faec4afad064, type: 3}
+  - {fileID: 8300000, guid: eb55beaa5283ae44e9da2c994f7da44d, type: 3}
+  - {fileID: 8300000, guid: 15a05cb77295a6641b84de25b56d0453, type: 3}
+  - {fileID: 8300000, guid: 57853c8566a8c304d827090a37f0fe30, type: 3}
+  - {fileID: 8300000, guid: 02ef62da8e6570b4289f4a5fdc9f95ac, type: 3}
+  - {fileID: 8300000, guid: 4c6b4b09f80309542a2e79767ab76866, type: 3}
+  - {fileID: 8300000, guid: cea2977c590aa81419aa1d8729bbbac2, type: 3}
+  - {fileID: 8300000, guid: 52a693bd0ce91e245a6e57ac8679dad4, type: 3}
   pedejaisVilktais: {fileID: 0}
   vaiIstajaVieta: 0
 --- !u!4 &2056236422
@@ -2507,6 +2832,8 @@ GameObject:
   - component: {fileID: 2096816836}
   - component: {fileID: 2096816838}
   - component: {fileID: 2096816837}
+  - component: {fileID: 2096816839}
+  - component: {fileID: 2096816840}
   m_Layer: 5
   m_Name: E46Masina
   m_TagString: E46
@@ -2570,3 +2897,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096816835}
   m_CullTransparentMesh: 0
+--- !u!114 &2096816839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096816835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0803fe8148fb73747a38145cd038310a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objektuSkripts: {fileID: 2056236421}
+--- !u!225 &2096816840
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096816835}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
