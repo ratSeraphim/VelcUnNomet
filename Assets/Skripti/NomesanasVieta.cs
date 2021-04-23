@@ -18,6 +18,7 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler
 
     //Norāde uz skriptu Objekti
     public Objekti objektuSkripts;
+    public UzvarasNosacijumi uzvara;
 
     //Nostrādā, ja objektu cenšas nomest uz nometamā lauka
     public void OnDrop(PointerEventData notikums)
@@ -52,6 +53,10 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler
                     //Pielāgo nomestā objekta izmēru
                     notikums.pointerDrag.GetComponent<RectTransform>().localScale = GetComponent<RectTransform>().localScale;
 
+                    //Pie objekta nolikšanas pareizajā vietā pieskaita uzvaras skaitītājam
+                    uzvara.pareizasMasinas += 1;
+                    Debug.Log("Ir " + uzvara.pareizasMasinas + " pareizi novietotas mašīnas");
+                    
                     /*Pārbauda pēc tagiem, kurš no objektiem ir pareizi nomests, tad atskaņo atbilstošo skaņu*/
                     switch (notikums.pointerDrag.tag)
                     {

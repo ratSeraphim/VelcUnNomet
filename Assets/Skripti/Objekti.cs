@@ -58,7 +58,7 @@ public class Objekti : MonoBehaviour
     public bool vaiIstajaVieta = false;
 
 
-    //Funkcija nostrādā tiklīdz nospiesa play poga
+    //Funkcija nostrādā tiklīdz nospiesta play poga
     private void Awake()
     {
         atkrKoord = atkritumuMasina.GetComponent<RectTransform>().localPosition;
