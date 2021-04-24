@@ -8,4 +8,4 @@
 - [x] Visus transportlīdzekļus var novietot pareizajās vietās ar skaņas efektiem u.c 
 - [x] Realizēt laika atskaiti un uzvaras logu (nav laiks, zvaigznītes)
 - [x] Uzvaras logā var atsākt spēli
-- [ ] Jauna aina kas reprezentē spēles sākumu (2 pogas, viena ved pie transportlīdzekļiem, otra neko nedara)
+- [x] Jauna aina kas reprezentē spēles sākumu (2 pogas, viena ved pie transportlīdzekļiem, otra neko nedara)

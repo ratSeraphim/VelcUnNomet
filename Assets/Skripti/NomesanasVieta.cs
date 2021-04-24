@@ -55,6 +55,7 @@ public class NomesanasVieta : MonoBehaviour, IDropHandler
 
                     //Pie objekta nolikšanas pareizajā vietā pieskaita uzvaras skaitītājam
                     uzvara.pareizasMasinas += 1;
+                    //Konsoles logā parāda cik ir pareizi saliktas mašīnas
                     Debug.Log("Ir " + uzvara.pareizasMasinas + " pareizi novietotas mašīnas");
                     
                     /*Pārbauda pēc tagiem, kurš no objektiem ir pareizi nomests, tad atskaņo atbilstošo skaņu*/
